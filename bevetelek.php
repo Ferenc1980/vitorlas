@@ -7,14 +7,14 @@ $lista="";
 $strtable="";
 
     
-    $sql="select nev from hajo order by nev";
+    $sql="select hajo.id,nev from hajo order by nev";
     $stmt=$db->query($sql);
     
     while($row=$stmt->fetch()){
         extract($row);
-        $lista.="<option>{$nev}</option>";
+        $lista.="<option value='{$id}'>{$nev}</option>";
     }
-    print_r($_POST);
+    //print_r($_POST);
     
     if(isset($_POST["hajok"]) && $_POST["hajok"]!='0'){
         $id=$_POST["hajok"];

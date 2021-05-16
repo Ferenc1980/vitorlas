@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="stylesheet" href="bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="menu.js"></script>
     
                                                           
     <title>Vitorlás</title>
@@ -24,7 +25,7 @@
 			<li class="nav-item"><a class="nav-link" href="index.php">Főoldal</a></li>
 			<li class="nav-item"><a class="nav-link" href="index.php?p=napidij.php">Napi díj személyre</a></li>
 			<li class="nav-item"><a class="nav-link" href="index.php?p=bevetelek.php">Bevételek</a></li>
-			<li class="nav-item"><a class="nav-link" href="index.php?=ujhajo.php">Új hajó</a></li>
+			<li class="nav-item"><a class="nav-link" href="index.php?p=ujhajo.php">Új hajó</a></li>
 			
 		</ul>
 	</div>
